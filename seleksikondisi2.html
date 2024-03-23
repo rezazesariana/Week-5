@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+</head>
+<body>
+    <script>
+        var username = prompt("Username anda?");
+        var password = prompt("Password anda?");
+
+        if (username == 'admin') {
+            if (password == 'admin') {
+                document.writeln("Anda Berhasil Login");
+            } else {
+                document.writeln("Password Anda Salah");
+            }
+        } else {
+            document.writeln("Username Anda Salah");
+        }
+    </script>
+</body>
+</html>

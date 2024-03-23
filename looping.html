@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+</head>
+<body>
+    <script>
+        var i = 0;
+
+        var ulangi = confirm("ulangi ga?");
+        while (ulangi) {
+            i++;
+            ulangi = confirm("ulangi ga?");
+        }
+
+        // do {
+        //     i++;
+        //     ulangi = confirm("ulangi ga?");
+        // } while (ulangi)
+
+        document.writeln("perulangan sebanyak " + i + " kali");
+        document.writeln("kumaha atuh<br>".repeat(i));
+    </script>
+</body>
+</html>
